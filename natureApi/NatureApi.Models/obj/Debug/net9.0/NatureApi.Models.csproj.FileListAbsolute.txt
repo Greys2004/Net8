@@ -1,0 +1,11 @@
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\bin\Debug\net9.0\NatureApi.Models.deps.json
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\bin\Debug\net9.0\NatureApi.Models.dll
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\bin\Debug\net9.0\NatureApi.Models.pdb
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.AssemblyInfoInputs.cache
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.AssemblyInfo.cs
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.csproj.CoreCompileInputs.cache
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.dll
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\refint\NatureApi.Models.dll
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.pdb
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\ref\NatureApi.Models.dll
