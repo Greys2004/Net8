@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NatureApi;
 
@@ -11,9 +12,11 @@ using NatureApi;
 namespace natureApi.Migrations
 {
     [DbContext(typeof(NatureDbContext))]
-    partial class NatureDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251009090240_UpdateSeed_20251009")]
+    partial class UpdateSeed_20251009
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

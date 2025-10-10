@@ -40,12 +40,42 @@ namespace NatureApi.Controllers
 
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Place>> GetPlace(int id)
+        public async Task<ActionResult> GetPlace(int id)
         {
-            var place = await _context.Place.FindAsync(id);
+            var place = await _context.Place
+                .Where(p => p.Id == id)
+                .Select(p => new
+                {
+                    p.Id,
+                    p.Name,
+                    p.Description,
+                    p.Category,
+                    p.Latitude,
+                    p.Longitude,
+                    p.ElevationMeters,
+                    p.Accessible,
+                    p.EntryFee,
+                    p.OpeningHours,
+                    p.CreatedAt,
+
+                    photos = p.Photos.Select(ph => new {
+                        ph.Id, ph.PlaceId, ph.Url, ph.Description
+                    }).ToList(),
+
+                    // a partir del join, construyo el array plano "amenities"
+                    amenities = p.PlaceAmenities
+                        .Select(pa => new { pa.Amenity.Id, pa.Amenity.Name })
+                        .ToList(),
+
+                    trails = p.Trails.Select(t => new {
+                        t.Id, t.PlaceId, t.Name, t.DistanceKm, t.EstimatedTimeMinutes,
+                        t.Difficulty, t.Path, t.IsLoop
+                    }).ToList()
+                })
+                .AsNoTracking()
+                .FirstOrDefaultAsync();
 
             if (place == null) return NotFound();
-
             return Ok(place);
         }
 
@@ -95,6 +125,46 @@ namespace NatureApi.Controllers
             {
                 return Problem(detail: ex.Message);
             }
+        }
+    }
+    
+    
+    [Route("api/[controller]")]
+    [ApiController]
+    public class TrailsController : ControllerBase
+    {
+        private readonly NatureDbContext _context;
+
+        public TrailsController(NatureDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: /api/trails
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Trail>>> GetTrails(
+            [FromQuery] int? placeId,
+            [FromQuery] string? difficulty)
+        {
+            var query = _context.Trail.AsQueryable();
+
+            if (placeId.HasValue)
+                query = query.Where(t => t.PlaceId == placeId.Value);
+
+            if (!string.IsNullOrEmpty(difficulty))
+                query = query.Where(t => t.Difficulty == difficulty);
+
+            var trails = await query.ToListAsync();
+            return Ok(trails);
+        }
+
+        // GET: /api/trails/5
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Trail>> GetTrail(int id)
+        {
+            var trail = await _context.Trail.FindAsync(id);
+            if (trail == null) return NotFound();
+            return Ok(trail);
         }
     }
 }

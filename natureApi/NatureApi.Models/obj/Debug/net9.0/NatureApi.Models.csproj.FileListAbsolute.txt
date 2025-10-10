@@ -5,6 +5,7 @@ C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debu
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.AssemblyInfoInputs.cache
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.AssemblyInfo.cs
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.csproj.CoreCompileInputs.cache
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.sourcelink.json
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.dll
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\refint\NatureApi.Models.dll
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\NatureApi.Models\obj\Debug\net9.0\NatureApi.Models.pdb

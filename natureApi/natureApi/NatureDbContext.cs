@@ -133,27 +133,141 @@ public class NatureDbContext : DbContext
             },
             new Photo
             {
-                Id = 2, PlaceId = 2,
+                Id = 2, PlaceId = 1,
+                Url = "https://www.patrimoniomundial.com.mx/wp-content/uploads/2013/10/Monarcas1.jpg",
+                Description = "Reserva de la Biósfera Mariposa Monarca"
+            },
+            new Photo
+            {
+                Id = 3, PlaceId = 1,
+                Url = "https://programadestinosmexico.com/wp-content/uploads/2023/12/RESERVA-DE-LA-MARIPOSA-MONARCA.jpg",
+                Description = "Reserva de la Biósfera Mariposa Monarca"
+            },
+            new Photo
+            {
+                Id = 4, PlaceId = 2,
                 Url = "https://transpais.com.mx/wp-content/uploads/2023/04/golondrinas.jpg",
                 Description = "Sótano de las Golondrinas"
             },
             new Photo
             {
-                Id = 3, PlaceId = 3,
+                Id = 5, PlaceId = 2,
+                Url = "https://revistaaventurero.com.mx/wp-content/uploads/2018/01/SOTANO-DE-LAS-GOLONDRINAS-www.puntofape.com_.jpg",
+                Description = "Sótano de las Golondrinas"
+            },
+            new Photo
+            {
+                Id = 6, PlaceId = 2,
+                Url = "https://img.travesiasdigital.com/cdn-cgi/image/quality=90,format=auto,onerror=redirect/2019/03/sotano-de-las-golondrinas-aves.jpg",
+                Description = "Sótano de las Golondrinas"
+            },
+            new Photo
+            {
+                Id = 7, PlaceId = 3,
                 Url = "https://rocateca.unison.mx/wp-content/uploads/2020/09/el-elegante.jpg",
                 Description = "Cráteres de El Pinacate"
             },
             new Photo
             {
-                Id = 4, PlaceId = 4,
+                Id = 8, PlaceId = 3,
+                Url = "https://sic.cultura.gob.mx/images/38880",
+                Description = "Cráteres de El Pinacate"
+            },
+            new Photo
+            {
+                Id = 9, PlaceId = 3,
+                Url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqkp-cTeUXQ1sl7yLsu1K4v-DKs-CzdWrvrg&s",
+                Description = "Cráteres de El Pinacate"
+            },
+            new Photo
+            {
+                Id = 10, PlaceId = 4,
                 Url = "https://www.huascaguiaturistica.com/huasca-imagenes/1-prismas-basalticos.jpg",
                 Description = "Prismas Basálticos"
             },
             new Photo
             {
-                Id = 5, PlaceId = 5,
+                Id = 11, PlaceId = 4,
+                Url = "https://www.mexicodestinos.com/blog/wp-content/uploads/2021/07/prismas-630x420.jpg",
+                Description = "Prismas Basálticos"
+            },
+            new Photo
+            {
+                Id = 12, PlaceId = 4,
+                Url = "https://www.huascaguiaturistica.com/huasca-imagenes/1-prismas-basalticos.jpg",
+                Description = "Prismas Basálticos"
+            },
+            new Photo
+            {
+                Id = 13, PlaceId = 5,
                 Url = "https://mxc.com.mx/wp-content/uploads/2021/02/sima-de-las-cotorras-1024x576.jpg",
                 Description = "Sima de las Cotorras"
+            },
+            new Photo
+            {
+                Id = 14, PlaceId = 5,
+                Url = "https://www.mexicodesconocido.com.mx/wp-content/uploads/2016/09/WhatsApp-Image-2020-07-15-at-19.03.28.jpeg",
+                Description = "Sima de las Cotorras"
+            },
+            new Photo
+            {
+                Id = 15, PlaceId = 5,
+                Url = "https://disfrutachiapas.com/wp-content/uploads/2023/12/simacotorras-1024x683.jpg",
+                Description = "Sima de las Cotorras"
+            },
+            new Photo
+            {
+                Id = 16, PlaceId = 6,
+                Url = "https://dexter.cancunairporttransportations.com/vendor/blog/gallery/2022/05/cenote_ik_kil-tour.jpg",
+                Description = "Cenote Ik Kil"
+            },
+            new Photo
+            {
+                Id = 17, PlaceId = 6,
+                Url = "https://topyucatan.com/storage/uploads/178495071-1332905113762718-8561404485712747862-n-1626902981.jpg",
+                Description = "Cenote Ik Kil"
+            },
+            new Photo
+            {
+                Id = 18, PlaceId = 6,
+                Url = "https://static.vecteezy.com/system/resources/previews/060/531/480/large_2x/cenote-ik-kil-yucatan-mexico-sunlight-illuminating-turquoise-water-in-a-mysterious-cave-photo.jpg",
+                Description = "Cenote Ik Kil"
+            },
+            new Photo
+            {
+                Id = 19, PlaceId = 7,
+                Url = "https://www.gob.mx/cms/uploads/image/file/247330/Basaseachi__foto_Teresita_Lasso__18_.JPG",
+                Description = "Cascada Basaseachi"
+            },
+            new Photo
+            {
+                Id = 20, PlaceId = 7,
+                Url = "https://mxc.com.mx/wp-content/uploads/2020/07/292750-684x1024.jpg",
+                Description = "Cascada Basaseachi"
+            },
+            new Photo
+            {
+                Id = 21, PlaceId = 7,
+                Url = "https://chihuahua.gob.mx/sites/default/files/grupos/user599/cascada_de_basaseachi_2.jpg",
+                Description = "Cascada Basaseachi"
+            },
+            new Photo
+            {
+                Id = 22, PlaceId = 8,
+                Url = "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/6f/10/c3.jpg",
+                Description = "Reserva de la Biósfera Sian Ka'an"
+            },
+            new Photo
+            {
+                Id = 23, PlaceId = 8,
+                Url = "https://caleatulum.com/wp-content/uploads/2025/04/Reserva-de-la-Biosfera-Sian-Kaan--1078x595.jpg",
+                Description = "Reserva de la Biósfera Sian Ka'an"
+            },
+            new Photo
+            {
+                Id = 24, PlaceId = 8,
+                Url = "https://elmomentoqroo.mx/wp-content/uploads/2025/06/Preservacion-de-la-flora-y-fauna-en-la-Reserva-de-Sian-Kaan-Foto-por-Patrimonio-Mundial-de-Mexico-UNESCO.png",
+                Description = "Reserva de la Biósfera Sian Ka'an"
             }
         );
 
@@ -166,7 +280,13 @@ public class NatureDbContext : DbContext
             new PlaceAmenity { PlaceId = 4, AmenityId = 1 },
             new PlaceAmenity { PlaceId = 4, AmenityId = 4 },
             new PlaceAmenity { PlaceId = 5, AmenityId = 2 },
-            new PlaceAmenity { PlaceId = 5, AmenityId = 3 }
+            new PlaceAmenity { PlaceId = 5, AmenityId = 3 },
+            new PlaceAmenity { PlaceId = 6, AmenityId = 2 },
+            new PlaceAmenity { PlaceId = 6, AmenityId = 3 },
+            new PlaceAmenity { PlaceId = 7, AmenityId = 1 },
+            new PlaceAmenity { PlaceId = 7, AmenityId = 4 },
+            new PlaceAmenity { PlaceId = 8, AmenityId = 3 },
+            new PlaceAmenity { PlaceId = 8, AmenityId = 1 }
         );
     }
 }

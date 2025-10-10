@@ -151,6 +151,7 @@ C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.0\natureApi.csproj.CoreCompileInputs.cache
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.0\natureApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.0\natureApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.0\natureApi.sourcelink.json
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Greys Pardo\RiderProjects\natureApi\natureApi\natureApi\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
