@@ -1,0 +1,27 @@
+<ul nz-menu nzMode="inline" class="side-bar">
+    <li nz-menu-item>
+        <a [routerLink]="['/admin']">
+        <span nz-icon nzType="shop" nzTheme="outline"></span>
+        Tiendas
+        </a>
+    </li>
+    <li nz-menu-item>
+        <a [routerLink]="['/admin','products']">
+        <!-- 'product' no existe, usa 'appstore' u otro que te guste -->
+        <span nz-icon nzType="appstore" nzTheme="outline"></span>
+        Productos
+        </a>
+    </li>
+    <li nz-menu-item>
+        <a [routerLink]="['/admin','invoices']">
+        <span nz-icon nzType="book" nzTheme="outline"></span>
+        Facturas
+        </a>
+    </li>
+    <li nz-menu-item>
+        <a [routerLink]="['/admin','orders']">
+        <span nz-icon nzType="shopping-cart" nzTheme="outline"></span>
+        Ordenes
+        </a>
+    </li>
+</ul>

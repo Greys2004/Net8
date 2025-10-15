@@ -1,0 +1,12 @@
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\bin\Debug\net9.0\StoreApi.Models.deps.json
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\bin\Debug\net9.0\StoreApi.Models.dll
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\bin\Debug\net9.0\StoreApi.Models.pdb
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\StoreApi.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\StoreApi.Models.AssemblyInfoInputs.cache
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\StoreApi.Models.AssemblyInfo.cs
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\StoreApi.Models.csproj.CoreCompileInputs.cache
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\StoreApi.Models.dll
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\refint\StoreApi.Models.dll
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\StoreApi.Models.pdb
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\ref\StoreApi.Models.dll
+C:\Users\Greys Pardo\RiderProjects\storeApi\StoreApi\StoreApi.Models\obj\Debug\net9.0\StoreApi.Models.sourcelink.json

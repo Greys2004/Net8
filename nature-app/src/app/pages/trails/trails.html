@@ -1,0 +1,37 @@
+<div *ngIf="trails?.length; else emptyState" class="table-wrap">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Distancia (km)</th>
+            <th>Dificultad</th>
+            <th>Tiempo (min)</th>
+            <th>Loop</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let t of trails; trackBy: trackByTrail">
+            <td class="cell-name">{{ t.name }}</td>
+            <td>{{ t.distanceKm | number:'1.0-2' }}</td>
+            <td>
+            <span class="badge">
+                {{ t.difficulty || '—' }}
+            </span>
+            </td>
+            <td>{{ t.estimatedTimeMinutes }}</td>
+            <td>
+            <span class="chip" [class.ok]="t.isLoop" [class.no]="!t.isLoop">
+                {{ t.isLoop ? 'Sí' : 'No' }}
+            </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <ng-template #emptyState>
+    <div class="empty">
+        <h3>No hay senderos</h3>
+        <p>Agrega tu primer sendero para verlo aquí.</p>
+    </div>
+</ng-template>
